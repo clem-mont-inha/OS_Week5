@@ -1,3 +1,78 @@
+# Explanation
+
+## `check_running_processes()`
+
+**Processes consuming more than 10% CPU:** Lists the top 5 CPU-consuming processes.
+
+**List all running 'java' processes:** Lists all processes with 'java' in their name.
+
+**List all running 'http' processes:** Lists all processes with 'http' in their name.
+
+**List all running 'mysql' processes:** Lists all processes with 'mysql' in their name.
+
+**Total number of running processes:** Counts and displays the total number of running processes.
+
+## `check_cpu_utilization()`
+
+**CPU utilization of critical processes:** Lists processes (java, http, mysql) with CPU utilization greater than 10%.
+
+**Average CPU load in the last minute:** Displays the average CPU load in the last minute.
+
+**CPU info:** Provides information about the server's CPU.
+
+**Top 5 CPU-consuming users:** Lists the top 5 CPU-consuming users.
+
+**CPU core count:** Displays the number of CPU cores on the server.
+
+## `check_memory_utilization()`
+
+**Freeing up cache:** Clears file system cache.
+
+**Display free memory:** Shows the amount of free memory.
+
+**Display swap usage:** Displays information about swap space usage.
+
+**Top 5 memory-consuming processes:** Lists the top 5 memory-consuming processes.
+
+**Available memory in megabytes:** Displays the available memory in megabytes.
+
+## `check_zombie_processes()`
+
+**Killing zombie processes:** Attempts to kill zombie processes.
+
+**List all zombie processes:** Lists all zombie processes.
+
+**Count of zombie processes:** Counts the number of zombie processes.
+
+**Parent processes of zombies:** Lists the parent processes of zombie processes.
+
+**User owning zombie processes:** Lists the users owning zombie processes.
+
+## `check_load_average()`
+
+**Current load average:** Displays the current system load average.
+
+**Load average of the last 5 minutes:** Displays the load average over the last 5 minutes.
+
+**Load average of the last 15 minutes:** Displays the load average over the last 15 minutes.
+
+**Number of currently running processes:** Displays the number of currently running processes.
+
+**Number of users currently logged in:** Displays the number of users currently logged into the server.
+
+## `check_disk_utilization()`
+
+**Disk I/O statistics:** Displays disk I/O statistics.
+
+**Disk usage:** Displays disk space usage.
+
+**Inode usage:** Displays inode (file system structure) usage.
+
+**List mounted filesystems:** Lists all mounted filesystems.
+
+**Display disk partitions and sizes:** Displays information about disk partitions and their sizes.
+
+
 # OUTPUT
 ================ Server Health Checkup ================
 ------ Checking Running Processes ------
